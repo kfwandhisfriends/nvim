@@ -1,4 +1,5 @@
 return {
+
     -- the colorscheme should be available when starting Neovim
     {
       'sainnhe/gruvbox-material',
@@ -11,4 +12,5 @@ return {
         vim.cmd.colorscheme('gruvbox-material')
       end
     },
+
 }

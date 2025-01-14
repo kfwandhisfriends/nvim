@@ -28,6 +28,3 @@ require("lazy").setup({
     checker = { enabled = true, notify = false },
 })
 
-
--- Setup mason
-require("mason").setup()
