@@ -15,3 +15,6 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- Windows
 keymap.set("n", "<leader>sv", "<C-w>v") --主键+sv
 keymap.set("n", "<leader>sh", "<C-w>s") --主键+sh
+
+-- NeoTree
+vim.keymap.set('n', '<C-k>', '<Cmd>Neotree toggle<CR>')
