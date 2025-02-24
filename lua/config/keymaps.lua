@@ -11,9 +11,6 @@ keymap.set("i", "jk", "<ESC>")
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
--- remap jk to esc
-keymap.set("v", "jk", "<ESC>")
-
 -- ------- Normal Mode ------- --
 -- Windows
 keymap.set("n", "<leader>sv", "<C-w>v") --主键+sv
