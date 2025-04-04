@@ -1,5 +1,4 @@
 return {
-
     -- the colorscheme should be available when starting Neovim
     {
       'sainnhe/gruvbox-material',
@@ -13,4 +12,27 @@ return {
       end
     },
 
+    -- tokyonight
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
+
+    -- kanagawa
+    {
+        "rebelot/kanagawa.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
+
+    -- vscode
+    {
+        "Mofiqul/vscode.nvim",
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    }
 }
