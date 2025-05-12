@@ -7,8 +7,9 @@ return {
       config = function()
         -- Optionally configure and load the colorscheme
         -- directly inside the plugin declaration.
+        
         vim.g.gruvbox_material_enable_italic = true
-        vim.cmd.colorscheme('gruvbox-material')
+        --vim.cmd.colorscheme('gruvbox-material')
       end
     },
 
@@ -34,5 +35,18 @@ return {
         lazy = false,
         priority = 1000,
         opts = {},
+    },
+
+    -- catppuccin
+    {
+        "catppuccin/nvim", 
+        lazy = false,
+        name = "catppuccin", 
+        priority = 1000,
+        opts = {},
+
+        config = function()
+            vim.cmd.colorscheme('catppuccin-frappe')
+        end
     }
 }
